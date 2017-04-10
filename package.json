@@ -30,9 +30,9 @@
     "zone.js": "0.7.2"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "latest",
+    "@ionic/app-scripts": "nightly",
     "typescript": "2.2.2",
-    "uglify-js": "^2.8.21"
+    "uglify-js": "latest"
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
