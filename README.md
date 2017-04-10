@@ -10,6 +10,9 @@
 7. Run `npm run ionic:build --prod --parseDeepLinks false` to generate a prod build.
 8. Run `source-map-explorer www/build/main.js www/build/main.js.map` and see what's in the bundle
 
+## Debugging
+1. Run `npm run ionic:build --aot --optimizejs --parseDeepLinks false`. Look in `.tmp` directory for answers on why some code was retained
+
 ## Weird things
 1. Why is `badge` in the bundle but not `avatar` or `backdrop`?
 
